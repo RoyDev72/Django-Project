@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'myapps/styles.css' %}">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home">
+      <div class="container">
+        <h1>Welcome to our Digital Marketing Agency</h1>
+        <p>We help businesses grow their online presence and achieve success.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Search Engine Optimization (SEO)</li>
+          <li>Social Media Marketing</li>
+          <li>Pay-Per-Click (PPC) Advertising</li>
+          <li>Email Marketing</li>
+          <li>Content Marketing</li>
+          <li>Website Design and Development</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>We are a team of experienced digital marketing professionals dedicated to helping businesses thrive in the online world.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us to discuss your digital marketing needs.</p>
+        <form>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Your Digital Marketing Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
